@@ -1,0 +1,15 @@
+*.aux
+*.log
+*.nav
+*.out
+*.DS_STORE*
+*.toc
+*.bbl
+*.bcf
+*.fdb_latexmk
+*.fls
+*.xml
+*.snm
+*.synctex.gz
+*.quarto*
+*libs*
