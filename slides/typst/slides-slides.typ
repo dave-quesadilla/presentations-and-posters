@@ -23,7 +23,25 @@
    - 20 minutes -- overview of report options
    - Remaining time -- group or individual work on reports. 
 ]
+#slide[
+  == Presentation Tips
+  - Introduce yourself
+  - Try to introduce topic for general audience
+  - Consider memorizing the first 1-2 minutes of your talk
+  - Aim for about 1 minute per slide and leave time for questions
+  - Use math formulas as "figures" -- do not try to present detailed computations or proofs
+  - Be less precise than your advisor wants you to be
+]
 
+#slide[
+  == Poster tips
+  - Try to go to poster session even if you aren't presenting
+  - Consider preparing a short (\<60 seconds) and medium (2-3min) explanation of your project
+  - Most people will skim the text on the poster and look more carefully at figures
+  - Different attendees will interact with you in different ways... poster sessions can be awkward
+
+
+]
 #slide[
   == Microsoft Office
 
@@ -46,14 +64,14 @@
   #toolbox.side-by-side[
     === Pros
     - Highly flexible math support
-    - Mature ecosystem for bibliography management, references, ...
+    - Mature ecosystem for bibliography management, references...
     - #link("https://i.sstatic.net/MgSAz.png", "Excellent typesetting engine")
 
   ][
     === Cons
     - Accessibility issues
     - Steep learning curve
-    - Overleaf free tier may not compile
+    - Overleaf free tier may not compile large projects
     - Large projects compile slowly
   ]
 
@@ -74,6 +92,16 @@
 ]
 
 
+
+#slide[
+  == Beamer slide tips
+  - Decide on theme early
+  - Consider ad hoc usage of e.g. `\footnotesize` or `\scriptsize` in slides if you must reduce math size 
+  - I recommend `subcaption` package for nested figures
+  - Use transparent background for images if possible
+]
+
+
 #slide[
   == LaTeX Posters
 
@@ -87,6 +115,14 @@
   #link("https://ctan.org/pkg/beamerposter", "beamerposter on CTAN")
 
   #link("https://www.overleaf.com/learn/latex/Posters", "Overleaf Poster documentation")
+]
+#slide[
+  == Beamerposter tips
+  - Decide on theme early
+  - Leave `\documentclass[10pt]{beamer}` but change `\usepackage[orientation=landscape,height = 40, width = 60, scale=1.25]{beamerposter}`
+  - See #link("https://github.com/dave-quesadilla/presentations-and-posters/blob/main/posters/latex/beamer/npbic/poster.tex#L71-L99", "npbic poster") for custom poster header example
+  - Set `\setbeamertemplate{caption}[numbered]` in preamble to force numbering of figures
+  - Set `\setbeamertemplate{navigation symbols}{}` in preamble to hide navigation symbols
 ]
 
 #slide[
@@ -112,7 +148,7 @@
   == Quarto
   #link("https://quarto.org/","A scientific report publishing tool") supporting notebook conversion, with good defaults with a bunch of target formats. 
 
-  Examples: slides/quarto/finite-elements (slides), posters/quarto/nps (poster)
+  Examples: #link("https://github.com/dave-quesadilla/presentations-and-posters/tree/main/slides/quarto/finite-elements", "slides/quarto/finite-elements") (slides), #link("https://github.com/dave-quesadilla/presentations-and-posters/tree/main/posters/quarto/nps", "posters/quarto/nps") (poster)
 ]
 
 #slide[
@@ -124,9 +160,18 @@
     === Pros
     - Good accessibility support 
     - Conversion to a variety of final formats
+    - Very fast
   ][
     === Cons
     - Typesetting is good (and improving)
     - Some math support
   ]
+]
+
+#slide[
+  == Questions?
+]
+
+#slide[
+  == Work time
 ]
