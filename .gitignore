@@ -11,5 +11,4 @@
 *.xml
 *.snm
 *.synctex.gz
-*.quarto*
 *libs*
