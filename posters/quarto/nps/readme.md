@@ -2,7 +2,7 @@
 
 
 ## setup 
-install typst poster template:
+
 ```
-quarto use template quarto-ext/typst-templates/poster
+quarto preview "homework 5.ipynb"
 ```
