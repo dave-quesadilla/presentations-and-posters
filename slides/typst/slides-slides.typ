@@ -98,7 +98,7 @@
   - Decide on theme early
   - Consider ad hoc usage of e.g. `\footnotesize` or `\scriptsize` in slides if you must reduce math size 
   - I recommend `subcaption` package for nested figures
-  - Use transparent background for images if possible
+  - Consider transparent background for images and plots
 ]
 
 
@@ -138,7 +138,7 @@
   ][
     === Cons
     - Typesetting is ok
-    - Limited math support
+    - Decent math support
     - Some formatting issues in pdf output
   ]
 
@@ -164,7 +164,7 @@
   ][
     === Cons
     - Typesetting is good (and improving)
-    - Some math support
+    - Good math support
   ]
 ]
 
